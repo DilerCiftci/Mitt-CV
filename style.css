@@ -1,16 +1,12 @@
 header {
     text-align: center;
     background-color: #4c7f60;
-}
-
-h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
-}
-
-#p1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 body {
@@ -24,10 +20,6 @@ img {
     outline: auto;
 }
 
-div {
-    text-align: center;
-    outline: auto;
-}
 
 section {
     text-align: center;
@@ -38,8 +30,78 @@ footer {
     background-color: #4c7f60;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
+    min-height: 50px;
+    padding-top: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
-h5 {
-    font-size: large;
+a {
+    color: #4c7f60;
+    background-color: black;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px;
+}
+
+.my-box {
+    text-align: center;
+    border: 2px solid black;
+    margin: 0;
+    display: inline-block;
+    padding: 1px 10px;
+    vertical-align: middle;
+    font-weight: lighter;
+}
+
+.imgbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    gap: 10px;
+}
+
+#push {
+    height: 80px;
+}
+
+a:hover {
+    color: black;
+    background-color: rgb(214, 225, 218);
+}
+
+@keyframes example {
+    from {
+        color: white;
+    }
+
+    to {
+        color: black;
+    }
+}
+
+.shinyh {
+    background-color: #4c7f60;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.shinyf {
+    background-color: #4c7f60;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
