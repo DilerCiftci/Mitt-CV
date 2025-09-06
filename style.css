@@ -82,7 +82,7 @@ a:hover {
 
 @keyframes example {
     from {
-        color: white;
+        color: #4c7f60;
     }
 
     to {
@@ -92,7 +92,7 @@ a:hover {
 
 .shinyh {
     animation-name: example;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
