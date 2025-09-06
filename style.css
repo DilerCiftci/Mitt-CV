@@ -1,7 +1,7 @@
 header {
     text-align: center;
     background-color: #4c7f60;
-    color: white;
+    color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: fixed;
     left: 0;
@@ -29,7 +29,7 @@ footer {
     text-align: center;
     background-color: #4c7f60;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
+    color: black;
     min-height: 50px;
     padding-top: 20px;
     position: fixed;
@@ -91,15 +91,6 @@ a:hover {
 }
 
 .shinyh {
-    background-color: #4c7f60;
-    animation-name: example;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.shinyf {
-    background-color: #4c7f60;
     animation-name: example;
     animation-duration: 3s;
     animation-iteration-count: infinite;
