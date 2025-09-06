@@ -51,11 +51,11 @@ a {
     cursor: pointer;
     text-align: center;
     margin: 5px;
+    margin-top: 80px;
 }
 
 .my-box {
     text-align: center;
-    border: 2px solid black;
     margin: 0;
     display: inline-block;
     padding: 1px 10px;
@@ -104,4 +104,24 @@ a:hover {
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+
+.accordion>input[type="checkbox"] {
+    position: absolute;
+    left: -100vw;
+}
+
+.accordion .content {
+    overflow-y: hidden;
+    height: 0;
+    transition: height 0.3s ease;
+}
+
+.accordion>input[type="checkbox"]:checked~.content {
+    height: auto;
+    overflow: visible;
+}
+
+.accordion label {
+    display: block;
 }
